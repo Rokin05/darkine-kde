@@ -8,11 +8,11 @@ Darkine KDE - This is a theme based on [Adapta KDE](https://github.com/PapirusDe
 In this repository you'll find:
 
 - Aurorae Theme
-- Konsole Color Schemes
 - Kvantum Themes
 - Plasma Color Schemes
 - Plasma Desktop Theme
 - Plasma Look-and-Feel Settings
+- SDDM Theme
 - Wallpaper
 
 ## Installation
