@@ -50,7 +50,7 @@ _uninstall() {
     _rm "$PREFIX/share/color-schemes/Darkine.colors"
     _rm "$PREFIX/share/Kvantum/Darkine"
     _rm "$PREFIX/share/plasma/desktoptheme/Darkine"
-    _rm "$PREFIX/share/plasma/look-and-feel/com.github.Rokin05.darkine-kde"
+    _rm "$PREFIX/share/plasma/look-and-feel/com.github.Rokin05.darkine"
     _rm "$PREFIX/share/wallpapers/Darkine"
     _rm "$PREFIX/share/sddm/themes/Darkine"
 }
