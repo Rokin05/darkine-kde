@@ -1,0 +1,17 @@
+[kdeglobals][KDE]
+widgetStyle=kvantum
+
+[kdeglobals][General]
+ColorScheme=Darkine
+
+[kdeglobals][Icons]
+Theme=Papirus-Adapta
+
+[plasmarc][Theme]
+name=Darkine
+
+[kwinrc][org.kde.kdecoration2]
+theme=__aurorae__svg__Darkine
+
+[kcminputrc][Mouse]
+cursorTheme=Breeze_Snow

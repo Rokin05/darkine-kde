@@ -1,0 +1,29 @@
+[Desktop Entry]
+Name=Adapta
+
+
+[Desktop Entry]
+Name=Darkine
+X-KDE-PluginInfo-Author=Rokin
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-License=GPL v3
+X-KDE-PluginInfo-Name=Darkine
+X-KDE-PluginInfo-Version=1.0
+
+
+[ContrastEffect]
+enabled=false
+contrast=0.2
+intensity=0.4
+saturation=1.7
+
+
+[Wallpaper]
+defaultWallpaperTheme=Darkine
+defaultFileSuffix=.jpg
+defaultWidth=1920
+defaultHeight=1080
