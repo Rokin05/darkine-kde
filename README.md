@@ -45,12 +45,14 @@ wget -qO- https://raw.githubusercontent.com/Rokin05/darkine-kde/master/install.s
 
 ## Configuration
 
+<p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.lockscreen.png" alt="Darkine-KDE lockscreen"/></p>
 #### Set the background lockscreen dark-grey :
 ```
 kwriteconfig5 --file kscreenlockerrc --group Greeter --group Wallpaper --group org.kde.color --group General --key Color 29,29,29
 qdbus org.kde.KWin /KWin reconfigure
 ```
 
+<p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.fonts.png" alt="Darkine-KDE fonts"/></p>
 #### Use the same <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/fonts-config.png">fonts</a> from the screenshot :
 ```
 # Arch :
@@ -69,6 +71,7 @@ qdbus org.kde.KWin /KWin reconfigure
 kquitapp5 plasmashell && kstart5 plasmashell
 ```
 
+<p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.kvantum.png" alt="Darkine-KDE kvantum"/></p>
 #### Arch : How install Kvantum :
 <a href="https://github.com/tsujan/Kvantum/blob/master/Kvantum/INSTALL">Official guide</a> - can be change over the time ! :
 ```
@@ -82,11 +85,39 @@ make install
 make distclean
 ```
 
+<p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.papirus.png" alt="Darkine-KDE papirus"/></p>
+
+#### How to change main colors of Papirus iconpack :
+
+After installation of Papirus :
+
+- If the icons are installed at ROOT directory :
+```
+sudo find -L /usr/share/icons/Papirus-Adapta-Nokto -name "*.svg" -exec sed -i 's/#00bcd4/#5d3263/g' {} \;
+sudo find -L /usr/share/icons/Papirus-Adapta-Nokto -name "*.svg" -exec sed -i 's/#0096aa/#351c39/g' {} \;
+sudo find -L /usr/share/icons/Papirus-Adapta-Nokto -name "*.svg" -exec sed -i 's/#00424A/#1a1a1a/g' {} \;
+```
+
+- If the icons are installed at HOME directory for KDE :
+```
+find -L $HOME/.local/share/icons/Papirus-Adapta-Nokto -name "*.svg" -exec sed -i 's/#00bcd4/#5d3263/g' {} \;
+find -L $HOME/.local/share/icons/Papirus-Adapta-Nokto -name "*.svg" -exec sed -i 's/#0096aa/#351c39/g' {} \;
+find -L $HOME/.local/share/icons/Papirus-Adapta-Nokto -name "*.svg" -exec sed -i 's/#00424A/#1a1a1a/g' {} \;
+```
+
+<p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.changecolor.png" alt="Darkine-KDE changecolor"/></p>
+1. The main color : #00bcd4
+2. The backend color : #0096aa
+3. The logo color : #00424A
+
 
 ## License
 
 GNU GPL v3
  
+
+
+
 
 
 
