@@ -19,7 +19,7 @@ uninstall:
 	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Darkine.colors
 	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Darkine
 	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Darkine
-	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/com.github.Rokin05.darkine
+	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/org.kde.darkine
 	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Darkine
 	-rm -rf $(DESTDIR)$(PREFIX)/share/sddm/themes/Darkine
 

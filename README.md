@@ -58,7 +58,7 @@ qdbus org.kde.KWin /KWin reconfigure
 ```
 
 
-<p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.fonts.png" alt="Darkine-KDE fonts"/></p>
+<a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/fonts-config.png"><p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.fonts.png" alt="Darkine-KDE fonts"/></p></a>
 
 #### Use the same <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/fonts-config.png">fonts</a> from the screenshot :
 ```
@@ -79,9 +79,9 @@ kquitapp5 plasmashell && kstart5 plasmashell
 ```
 
 
-<p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.kvantum.png" alt="Darkine-KDE kvantum"/></p>
+<a href="https://github.com/tsujan/Kvantum/tree/master/Kvantum"><p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.kvantum.png" alt="Darkine-KDE kvantum"/></p></a>
 
-#### Arch : How install Kvantum :
+#### Arch : How install Kvantum engine :
 
 <a href="https://github.com/tsujan/Kvantum/blob/master/Kvantum/INSTALL">Official guide</a> - can be change over the time ! :
 ```
@@ -95,7 +95,7 @@ make install
 make distclean
 ```
 
-<p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.papirus.png" alt="Darkine-KDE papirus"/></p>
+<a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme"><p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.papirus.png" alt="Darkine-KDE papirus"/></p></a>
 
 #### How to change main colors of Papirus iconpack :
 
@@ -115,11 +115,10 @@ find -L $HOME/.local/share/icons/Papirus-Adapta-Nokto -name "*.svg" -exec sed -i
 find -L $HOME/.local/share/icons/Papirus-Adapta-Nokto -name "*.svg" -exec sed -i 's/#00424A/#1a1a1a/g' {} \;
 ```
 
-<p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.changecolor.png" alt="Darkine-KDE changecolor"/></p>
-
-1. The main color : #00bcd4
-2. The backend color : #0096aa
-3. The logo color : #00424A
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.changecolor.png" alt="Darkine-KDE changecolor"/>
+  <sup><sub>1. The main color : #00bcd4 | 2. The backend color : #0096aa | 3. The logo color : #00424A</sub></sup>
+</p>
 
 
 ## License
