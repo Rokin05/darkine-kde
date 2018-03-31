@@ -50,6 +50,7 @@ wget -qO- https://raw.githubusercontent.com/Rokin05/darkine-kde/master/install.s
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.lockscreen.png" alt="Darkine-KDE lockscreen"/></p>
+
 #### Set the background lockscreen dark-grey :
 ```
 kwriteconfig5 --file kscreenlockerrc --group Greeter --group Wallpaper --group org.kde.color --group General --key Color 29,29,29
@@ -58,6 +59,7 @@ qdbus org.kde.KWin /KWin reconfigure
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.fonts.png" alt="Darkine-KDE fonts"/></p>
+
 #### Use the same <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/fonts-config.png">fonts</a> from the screenshot :
 ```
 # Arch :
@@ -78,7 +80,9 @@ kquitapp5 plasmashell && kstart5 plasmashell
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.kvantum.png" alt="Darkine-KDE kvantum"/></p>
+
 #### Arch : How install Kvantum :
+
 <a href="https://github.com/tsujan/Kvantum/blob/master/Kvantum/INSTALL">Official guide</a> - can be change over the time ! :
 ```
 sudo pacman -S gcc libx11 libxext qt5-base qt5-svg qt5-x11extras qt5-tools
@@ -112,6 +116,7 @@ find -L $HOME/.local/share/icons/Papirus-Adapta-Nokto -name "*.svg" -exec sed -i
 ```
 
 <p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.changecolor.png" alt="Darkine-KDE changecolor"/></p>
+
 1. The main color : #00bcd4
 2. The backend color : #0096aa
 3. The logo color : #00424A
