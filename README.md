@@ -1,10 +1,8 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/preview.1.png" alt="Preview Darkine KDE"/>
   <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/preview.2.png"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.preview.2.png" alt="Preview Darkine KDE"/></a> <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/preview.3.png"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.preview.3.png" alt="Preview Darkine KDE"/></a> <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/preview.4.png"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.preview.4.png" alt="Preview Darkine KDE"/></a>
-</p>
-<p align="center">
-  <sup><sub>Screenshot Details: Engine: <a href="https://github.com/tsujan/Kvantum/tree/master/Kvantum">Kvantum</a> | Kvantum Theme: Darkine | Aurorae decoration: Darkine | Plasma Theme: Darkine | Icons: <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus-Adapta-Nokto</a> | Dock: <a href="https://github.com/psifidotos/Latte-Dock">Latte Dock</a></sub></sup>
-</p>
+</p><p align="center">
+  <sup><sub>Screenshot Details: Engine: <a href="https://github.com/tsujan/Kvantum/tree/master/Kvantum">Kvantum</a> | Kvantum Theme: Darkine | Aurorae decoration: Darkine | Plasma Theme: Darkine | Icons: <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus-Adapta-Nokto</a> | Dock: <a href="https://github.com/psifidotos/Latte-Dock">Latte Dock</a></sub></sup></p>
 
 Darkine KDE - This is a theme based on [Adapta KDE](https://github.com/PapirusDevelopmentTeam/adapta-kde) for Plasma 5 desktop.
 
@@ -28,11 +26,13 @@ Use the script to install the latest version directly from this repo (independen
 wget -qO- https://raw.githubusercontent.com/Rokin05/darkine-kde/master/install.sh | sh
 ```
 
+
 #### Uninstall
 
 ```
 wget -qO- https://raw.githubusercontent.com/Rokin05/darkine-kde/master/install.sh | uninstall=true sh
 ```
+
 
 ## Recommendations
 
@@ -45,13 +45,16 @@ wget -qO- https://raw.githubusercontent.com/Rokin05/darkine-kde/master/install.s
 - For better looking use toolbar icons without text with 22px size (for Papirus themes)
 
 
+
 ## Configuration
+
 
 #### Set the background lockscreen dark-grey :
 ```
 kwriteconfig5 --file kscreenlockerrc --group Greeter --group Wallpaper --group org.kde.color --group General --key Color 29,29,29
 qdbus org.kde.KWin /KWin reconfigure
 ```
+
 
 #### Use the same <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/fonts-config.png">fonts</a> from the screenshot :
 ```
@@ -70,6 +73,7 @@ kwriteconfig5 --file kdeglobals --group WM --key activeFont "Cantarell,9,-1,5,50
 qdbus org.kde.KWin /KWin reconfigure
 kquitapp5 plasmashell && kstart5 plasmashell
 ```
+
 
 #### Arch : How install Kvantum :
 <a href="https://github.com/tsujan/Kvantum/blob/master/Kvantum/INSTALL">Official guide</a> - can be change over the time ! :
