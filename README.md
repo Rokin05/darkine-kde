@@ -1,6 +1,8 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/preview.1.png" alt="Preview Darkine KDE"/>
   <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/preview.2.png"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.preview.2.png" alt="Preview Darkine KDE"/></a> <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/preview.3.png"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.preview.3.png" alt="Preview Darkine KDE"/></a> <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/preview.4.png"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.preview.4.png" alt="Preview Darkine KDE"/></a>
+</p>
+<p align="center">
   <sup><sub>Screenshot Details: Engine: <a href="https://github.com/tsujan/Kvantum/tree/master/Kvantum">Kvantum</a> | Kvantum Theme: Darkine | Aurorae decoration: Darkine | Plasma Theme: Darkine | Icons: <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus-Adapta-Nokto</a> | Dock: <a href="https://github.com/psifidotos/Latte-Dock">Latte Dock</a></sub></sup>
 </p>
 
