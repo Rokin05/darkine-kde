@@ -71,7 +71,6 @@ PlasmaCore.ColorScope {
             right: parent.right
         }
         height: root.height
-
         focus: true //StackView is an implicit focus scope, so we need to give this focus so the item inside will have it
 
         Timer {
@@ -95,7 +94,7 @@ PlasmaCore.ColorScope {
                 || !userListModel.hasOwnProperty("disableAvatarsThreshold"))
                     return (userList.y + mainStack.y) > 0
 
-                if ( userListModel.count == 0 ) return false
+                if ( userListModel.count === 0 ) return false
 
                 return userListModel.count <= userListModel.disableAvatarsThreshold && (userList.y + mainStack.y) > 0
             }
@@ -114,28 +113,32 @@ PlasmaCore.ColorScope {
 
             actionItems: [
                 ActionButton {
-                    iconSource: "system-suspend"
+                    //iconSource: "system-suspend"
+                    iconSource: "/usr/share/sddm/themes/Darkine/components/artwork/suspend.svgz"
                     text: i18nd("plasma_lookandfeel_org.kde.lookandfeel","Suspend")
                     onClicked: sddm.suspend()
                     enabled: sddm.canSuspend
                     visible: !inputPanel.keyboardActive
                 },
                 ActionButton {
-                    iconSource: "system-reboot"
+                    //iconSource: "system-reboot"
+                    iconSource: "/usr/share/sddm/themes/Darkine/components/artwork/reboot.svgz"
                     text: i18nd("plasma_lookandfeel_org.kde.lookandfeel","Restart")
                     onClicked: sddm.reboot()
                     enabled: sddm.canReboot
                     visible: !inputPanel.keyboardActive
                 },
                 ActionButton {
-                    iconSource: "system-shutdown"
+                    //iconSource: "system-shutdown"
+                    iconSource: "/usr/share/sddm/themes/Darkine/components/artwork/shutdown.svgz"
                     text: i18nd("plasma_lookandfeel_org.kde.lookandfeel","Shutdown")
                     onClicked: sddm.powerOff()
                     enabled: sddm.canPowerOff
                     visible: !inputPanel.keyboardActive
                 },
                 ActionButton {
-                    iconSource: "system-search"
+                    //iconSource: "system-search"
+                    iconSource: "/usr/share/sddm/themes/Darkine/components/artwork/switch-user.svgz"
                     text: i18nd("plasma_lookandfeel_org.kde.lookandfeel","Different User")
                     onClicked: mainStack.push(userPromptComponent)
                     enabled: true

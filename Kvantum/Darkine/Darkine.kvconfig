@@ -13,7 +13,7 @@ spread_progressbar=true
 composite=true
 menu_shadow_depth=5
 tooltip_shadow_depth=2
-splitter_width=4
+splitter_width=7
 scroll_width=9
 scroll_arrows=false
 scroll_min_extent=60
@@ -60,7 +60,7 @@ opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidem
 reduce_window_opacity=0
 respect_DE=true
 scrollable_menu=false
-submenu_delay=250
+submenu_delay=180
 
 [GeneralColors]
 window.color=#1d1d1d
@@ -89,7 +89,7 @@ transparent_dolphin_view=false
 transparent_pcmanfm_sidepane=true
 blur_translucent=false
 transparent_menutitle=true
-respect_darkness=false
+respect_darkness=true
 kcapacitybar_as_progressbar=true
 force_size_grip=true
 iconless_pushbutton=true

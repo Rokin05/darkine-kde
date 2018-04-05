@@ -28,6 +28,7 @@ FocusScope {
 
     Rectangle {
         id: sceneColorBackground
+        color: "#ff0000"
         anchors.fill: parent
     }
 

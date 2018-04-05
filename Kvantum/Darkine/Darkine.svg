@@ -38,9 +38,9 @@
      inkscape:window-height="737"
      id="namedview984"
      showgrid="false"
-     inkscape:zoom="5.787825"
-     inkscape:cx="406.71551"
-     inkscape:cy="363.9634"
+     inkscape:zoom="2.0463052"
+     inkscape:cx="97.993055"
+     inkscape:cy="161.27088"
      inkscape:window-x="1920"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -679,11 +679,11 @@
      y="730"
      rx="22.5"
      ry="22.5"
-     style="fill:#cfd8dc;fill-rule:evenodd;stroke:none;fill-opacity:1;opacity:0.1" />
+     style="fill:#5e5f5e;fill-rule:evenodd;stroke:none;fill-opacity:1;opacity:0.1" />
   <g
      id="dial-notches"
      transform="translate(-76.5,66.75012)"
-     style="fill:#ffffff;fill-opacity:0.39200003;fill-rule:evenodd;stroke:none">
+     style="fill:#ffffff;fill-opacity:0.39200003;fill-rule:evenodd;stroke:none;opacity:0.5">
     <rect
        id="rect6567"
        width="45"
@@ -692,7 +692,8 @@
        y="667.5"
        style="opacity:0" />
     <g
-       id="g189">
+       id="g189"
+       style="">
       <path
          id="dial-notches0"
          d="m 214.625,670 -1.75,1 2.25,3.9063 1.75,-1 -2.25,-3.9063 z m 20.75,0 -2.25,3.9063 1.75,1 2.25,-3.9063 -1.75,-1 z m -32.875,19 0,2 4.5,0 0,-2 -4.5,0 z m 40.5,0 0,2 4.5,0 0,-2 -4.5,0 z m -27.875,16.0938 -2.25,3.9062 1.75,1 2.25,-3.9062 -1.75,-1 z m 19.75,0 -1.75,1 2.25,3.9062 1.75,-1 -2.25,-3.9062 z"
@@ -5446,11 +5447,11 @@
     <path
        id="path5211"
        d="m 338,402 c -4.76536,0.004 -9,3.02646 -9,9.10156 0,6.07512 6.35292,9.66314 9,12.89844 2.64707,-3.23527 9,-6.82329 9,-12.89844 0,-6.0751 -4.23538,-9.10566 -9,-9.10156 z"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#3d494f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#282828;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
     <path
        id="path5214"
        d="m 338.00391,406 c -1.538,10e-4 -2.7786,0.47948 -3.58985,1.22266 -0.81125,0.74317 -1.41406,1.77075 -1.41406,3.8789 0,1.64326 0.82865,3.06372 2.43555,4.78906 0.72809,0.78187 1.68049,1.72709 2.56445,2.52735 0.88396,-0.80026 1.83636,-1.74549 2.56445,-2.52735 1.60672,-1.72534 2.43555,-3.14578 2.43555,-4.78906 0,-2.10799 -0.60473,-3.1372 -1.41602,-3.88086 -0.81128,-0.74365 -2.04686,-1.2217 -3.58007,-1.2207 z"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#263238;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#404040;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
   </g>
   <rect
      id="tbutton-normal-bottom"

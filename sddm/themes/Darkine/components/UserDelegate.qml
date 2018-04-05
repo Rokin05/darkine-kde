@@ -85,7 +85,7 @@ Item {
             live: false
         }
 
-        property var colorBorder: PlasmaCore.ColorScope.textColor
+        property color colorBorder: "#5e5f5e"
 
         //draw a circle with an antialised border
         //innerRadius = size of the inner circle with contents

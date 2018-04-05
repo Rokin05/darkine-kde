@@ -101,23 +101,21 @@ make distclean
 
 After installation of Papirus :
 
-- If the icons are installed at ROOT directory :
+- If the icons are installed at ROOT directory* :
 ```
-sudo find -L /usr/share/icons/Papirus-Adapta-Nokto -name "*.svg" -exec sed -i 's/#00bcd4/#5d3263/g' {} \;
-sudo find -L /usr/share/icons/Papirus-Adapta-Nokto -name "*.svg" -exec sed -i 's/#0096aa/#351c39/g' {} \;
-sudo find -L /usr/share/icons/Papirus-Adapta-Nokto -name "*.svg" -exec sed -i 's/#00424A/#1a1a1a/g' {} \;
+sudo find -L /usr/share/icons/Papirus-Adapta-Nokto -name "*.svg" -exec sed -i -e 's/#00bcd4/#5d3263/g' -e 's/#0096aa/#351c39/g' -e 's/#00424A/#1a1a1a/g' {} \;
 ```
 
-- If the icons are installed at HOME directory for KDE :
+- If the icons are installed at HOME directory for KDE* :
 ```
-find -L $HOME/.local/share/icons/Papirus-Adapta-Nokto -name "*.svg" -exec sed -i 's/#00bcd4/#5d3263/g' {} \;
-find -L $HOME/.local/share/icons/Papirus-Adapta-Nokto -name "*.svg" -exec sed -i 's/#0096aa/#351c39/g' {} \;
-find -L $HOME/.local/share/icons/Papirus-Adapta-Nokto -name "*.svg" -exec sed -i 's/#00424A/#1a1a1a/g' {} \;
+find -L $HOME/.local/share/icons/Papirus-Adapta-Nokto -name "*.svg" -exec sed -i -e 's/#00bcd4/#5d3263/g' -e 's/#0096aa/#351c39/g' -e 's/#00424A/#1a1a1a/g' {} \;
 ```
 
+<sup><sub>*Command execution take ~2 min with a Intel quad core</sub></sup>
 
 <p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.changecolor.png" alt="Darkine-KDE changecolor"/></p>
 <p align="center"><sup><sub>1. The main color : #00bcd4 | 2. The backend color : #0096aa | 3. The logo color : #00424A</sub></sup></p>
+
 
 ## License
 
