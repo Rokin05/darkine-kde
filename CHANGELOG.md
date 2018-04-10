@@ -7,7 +7,7 @@
 #### Version 1.2 - 31 March 2018
 - Fixs for opendesktop.org packages
 
-#### Version 1.3 - 30 March 2018
+#### Version 1.3 - 1 April 2018
 - Fix install
 - Fix some filenames
 - Update authors files
@@ -15,7 +15,7 @@
 - Fix look-and-feel (Window theme apply now automatically)
 - Update readme
 
-#### Version 1.4 - 30 March 2018
+#### Version 1.4 - 5 April 2018
 - Update readme (new one-line sed command for Papirus iconpack colors change)
 - Kvantum : Update slidercursor-disabled control svg
 - Kvantum : Update dial control svg
