@@ -8,13 +8,13 @@ Darkine KDE - This is a theme based on [Adapta KDE](https://github.com/PapirusDe
 
 In this repository you'll find:
 
-- Aurorae Theme
-- Kvantum Themes
-- Plasma Color Schemes
-- Plasma Desktop Theme
-- Plasma Look-and-Feel Settings
-- SDDM Theme
-- Wallpaper
+- [Plasma Look-and-Feel Pack](https://www.opendesktop.org/p/1226052)
+- [Plasma Desktop Themes](https://www.opendesktop.org/p/1226050)
+- [Plasma Color Schemes](https://www.opendesktop.org/p/1226045)
+- [Aurorae Themes](https://www.opendesktop.org/p/1226049)
+- [Kvantum Themes](https://www.opendesktop.org/p/1226051)
+- [SDDM Theme](https://www.opendesktop.org/p/1226079/)
+- [Wallpapers](https://www.opendesktop.org/p/1226061)
 
 ## Installation
 
@@ -32,6 +32,18 @@ wget -qO- https://raw.githubusercontent.com/Rokin05/darkine-kde/master/install.s
 ```
 wget -qO- https://raw.githubusercontent.com/Rokin05/darkine-kde/master/install.sh | uninstall=true sh
 ```
+
+
+### Third-party packages
+
+Packages in this section are not part of the official repositories. If you have a trouble or a question please contact with package maintainer.
+
+| **Distro** | **Maintainer** | **Package** |
+|:-----------|:---------------|:------------|
+| Arch Linux | Josip Ponjavic | [darkine-kde-git](https://aur.archlinux.org/packages/darkine-kde-git/) <sup>AUR</sup> |
+
+**NOTE:** If you maintainer and want be in the list please create an issue or send a pull request.
+
 
 
 ## Recommendations
