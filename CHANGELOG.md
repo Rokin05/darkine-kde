@@ -24,7 +24,8 @@
 - SDDM : Textbox, PasswordBox and Button colors no longer appear with the default white theme. Colors schemes are now directly integrated into the SDDM theme. This requires a slight visual change.
 - SDDM : New icons, they are now directly integrated into the SDDM theme.
 
-#### Version 1.5 - 10 April 2018
+#### Version 1.5
 - Plasma theme : Fix button.svg (hover)
 - Plasma theme : New : add lockscreen (look-and-feel)
 - Plasma theme : Change default icons Papirus-Adapta to Papirus-Adapta-Nokto (better render on dark theme)
+- Kvantum : Update scrollbar (flat design).

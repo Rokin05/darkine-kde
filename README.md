@@ -99,8 +99,8 @@ kquitapp5 plasmashell && kstart5 plasmashell
 ```
 sudo pacman -S gcc libx11 libxext qt5-base qt5-svg qt5-x11extras qt5-tools
 
-mkdir /tmp/kvantum && cd /tmp/kvantum
-git clone https://github.com/tsujan/Kvantum
+cd /tmp && git clone https://github.com/tsujan/Kvantum
+cd Kvantum/Kvantum
 
 qmake && make
 make install
