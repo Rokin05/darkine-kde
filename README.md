@@ -97,14 +97,11 @@ kquitapp5 plasmashell && kstart5 plasmashell
 
 <a href="https://github.com/tsujan/Kvantum/blob/master/Kvantum/INSTALL">Official guide</a> - can be change over the time ! :
 ```
-sudo pacman -S gcc libx11 libxext qt5-base qt5-svg qt5-x11extras qt5-tools
+#Official Repo :
+sudo pacman -S kvantum-qt5
 
-cd /tmp && git clone https://github.com/tsujan/Kvantum
-cd Kvantum/Kvantum
-
-qmake && make
-make install
-make distclean
+#Arch-User-Repository :
+yaourt -S kvantum-qt5-git
 ```
 
 <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme"><p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.papirus.png" alt="Darkine-KDE papirus"/></p></a>
