@@ -95,13 +95,10 @@ kquitapp5 plasmashell && kstart5 plasmashell
 
 #### Arch : How install Kvantum engine :
 
-<a href="https://github.com/tsujan/Kvantum/blob/master/Kvantum/INSTALL">Official guide</a> - can be change over the time ! :
+<a href="https://github.com/tsujan/Kvantum/blob/master/Kvantum/INSTALL">Official guide</a>
 ```
 #Official Repo :
 sudo pacman -S kvantum-qt5
-
-#Arch-User-Repository :
-yaourt -S kvantum-qt5-git
 ```
 
 <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme"><p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.papirus.png" alt="Darkine-KDE papirus"/></p></a>
