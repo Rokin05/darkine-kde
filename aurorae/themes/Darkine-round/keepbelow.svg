@@ -1,0 +1,17 @@
+<svg id="svg919" height="14mm" style="" viewBox="0 0 71 14" width="71mm" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<linearGradient id="linearGradient831" gradientUnits="userSpaceOnUse" style="" x1="0" x2="13.758334" y1="7.120796" y2="7.120796">
+<stop id="stop1" offset="0" style="stop-color:#ff00ff"/>
+<stop id="stop2" offset="1" style="stop-color:#0000ff"/>
+</linearGradient>
+<circle id="active-center" cx="6.879167" cy="7.120833" r="6.879167" style="stroke-width:.529167;fill:url(#linearGradient831)"/>
+<circle id="inactive-center" cx="-49.741665" cy="7.120803" r="6.879167" style="fill:#3b3c36;stroke-width:.529167" transform="scale(-1 1)"/>
+<use id="deactivated-center" height="100%" style="" transform="translate(14.287502 -.000002)" width="100%" xlink:href="#inactive-center"/>
+<g id="hover-center" style="" transform="matrix(1 0 0 -1 0 14.241642)">
+<use id="hc" height="100%" style="" transform="translate(14.2875 -.000012)" width="100%" xlink:href="#active-center"/>
+<path id="px" d="m17.357707 8.2201408 7.435771-.0000325-2.907151-2.9071507c-.336849-.3368487-1.284585-.3368523-1.621436-.0000007z" style="opacity:.5;fill:#161613;stroke-width:1.146528"/>
+</g>
+<g id="pressed-center" style="" transform="matrix(1 0 0 -1 0 14.241666)">
+<circle id="pc" cx="35.454166" cy="7.120833" r="6.879167" style="fill:#ff00ff;stroke-width:.529167"/>
+<use id="use827" height="100%" style="" transform="translate(14.486317 .005995)" width="100%" xlink:href="#px"/>
+</g>
+</svg>

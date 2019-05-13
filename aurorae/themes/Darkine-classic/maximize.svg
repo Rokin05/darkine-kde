@@ -1,0 +1,16 @@
+<svg id="svg4551" height="3.5mm" style="" viewBox="0 0 18.5 3.5" width="18.5mm" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="active-center" style="" transform="matrix(.21497396 0 0 -.21497396 0 3.5)">
+<path id="bg" d="m0 0h16v16h-16z" style="opacity:.7;fill:none"/>
+<path id="ico" d="m5.465711-11.136811h5.404596v5.404597h-5.404596z" style="fill:none;stroke:#43443d;stroke-width:1.980308" transform="scale(1 -1)"/>
+</g>
+<g id="hover-center" style="" transform="translate(0 -293.50001)">
+<use id="clone" height="100%" style="" transform="translate(3.704167 293.5)" width="100%" xlink:href="#active-center"/>
+<path id="ico-3" d="m4.879152 294.60587h1.161848v1.161848h-1.161848z" style="opacity:.24;fill:none;stroke:#ffffff;stroke-width:.425715"/>
+</g>
+<use id="pressed-center" height="100%" style="" transform="translate(3.704167 .000003)" width="100%" xlink:href="#hover-center"/>
+<g id="inactive-center" style="" transform="matrix(.21497396 0 0 -.21497396 11.1125 3.5)">
+<path id="bg-7" d="m0 0h16v16h-16z" style="opacity:.7;fill:none"/>
+<path id="ico-7" d="m5.465711-11.136811h5.404596v5.404597h-5.404596z" style="fill:none;stroke:#3b3c36;stroke-width:1.980308" transform="scale(1 -1)"/>
+</g>
+<use id="deactivated-center" height="100%" style="" transform="translate(3.704167 .000003)" width="100%" xlink:href="#inactive-center"/>
+</svg>

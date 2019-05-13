@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" version="1.1">
+ <g transform="translate(-1,-1)">
+  <circle style="fill:#111111;fill-opacity:0" cx="12" cy="12" r="10"/>
+  <circle style="fill:#3699e8" cx="12" cy="18" r="1"/>
+  <path style="fill:#3699e8;fill-rule:evenodd" d="m 11,15 2,0 0,-10 -2,0 z"/>
+ </g>
+</svg>

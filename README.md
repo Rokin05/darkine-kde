@@ -1,140 +1,128 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/preview.1.png" alt="Preview Darkine KDE"/>
-  <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/preview.2.png"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.preview.2.png" alt="Preview Darkine KDE"/></a> <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/preview.3.png"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.preview.3.png" alt="Preview Darkine KDE"/></a> <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/preview.4.png"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.preview.4.png" alt="Preview Darkine KDE"/></a>
-</p><p align="center">
-  <sup><sub>Screenshot Details: Engine: <a href="https://github.com/tsujan/Kvantum/tree/master/Kvantum">Kvantum</a> | Kvantum Theme: Darkine | Aurorae decoration: Darkine | Plasma Theme: Darkine | Icons: <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus-Adapta-Nokto</a> | Dock: <a href="https://github.com/psifidotos/Latte-Dock">Latte Dock</a></sub></sup></p>
+    <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/plasma/look-and-feel/darkine/contents/previews/preview.png">
+        <img src="plasma/look-and-feel/darkine/contents/previews/preview.png" alt="Darkine theme - KDE Plasma"/>
+    </a>
+    <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/sddm/themes/darkine/preview.jpg">
+        <img width="400" src="sddm/themes/darkine/preview.jpg" alt="Darkine - SDDM theme"/>
+    </a>
+    <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/wallpapers/Darkine/contents/screenshot.png">
+        <img width="380" src="wallpapers/Darkine/contents/screenshot.png" alt="Darkine - SDDM theme"/>
+    </a>
+</p>
 
-Darkine KDE - This is a theme based on [Adapta KDE](https://github.com/PapirusDevelopmentTeam/adapta-kde) for Plasma 5 desktop.
 
-In this repository you'll find:
+## Darkine KDE - Theme for KDE Plasma 5 desktop :
 
-- [Plasma Look-and-Feel Pack](https://www.opendesktop.org/p/1226052)
-- [Plasma Desktop Themes](https://www.opendesktop.org/p/1226050)
-- [Plasma Color Schemes](https://www.opendesktop.org/p/1226045)
-- [Aurorae Themes](https://www.opendesktop.org/p/1226049)
-- [Kvantum Themes](https://www.opendesktop.org/p/1226051)
-- [SDDM Theme](https://www.opendesktop.org/p/1226079/)
-- [Wallpapers](https://www.opendesktop.org/p/1226061)
+The full theme pack is available on [OpenDesktop.org](https://www.opendesktop.org/p/) and on KDE Plasma Discover. <br>
+You can also use the script below to install the latest version directly from this repo (independently on your distro).
+
+<br>
+
+| Name                      | Git (path)                     | OpenDesktop (tar.gz)                           | Misc                      |
+|:--------------------------|:------------------------------:|:----------------------------------------------:|:--------------------------|
+| Plasma Look-and-Feel Pack | [:link:](plasma/look-and-feel) | [:inbox_tray:](https://www.opendesktop.org/p/) |                           |
+| Plasma Desktop Theme      | [:link:](plasma/desktoptheme)  | [:inbox_tray:](https://www.opendesktop.org/p/) |                           |
+| Plasma Color Scheme       | [:link:](color-schemes)        | [:inbox_tray:](https://www.opendesktop.org/p/) |                           |
+| Aurorae Theme             | [:link:](aurorae)              | [:inbox_tray:](https://www.opendesktop.org/p/) |                           |
+| Kvantum Theme             | [:link:](Kvantum)              | [:inbox_tray:](https://www.opendesktop.org/p/) |                           |
+| Icon-pack                 | [:link:](icons)                | [:inbox_tray:](https://www.opendesktop.org/p/) |                           |
+| SDDM Theme                | [:link:](sddm)                 | [:inbox_tray:](https://www.opendesktop.org/p/) |                           |
+| Wallpapers                | [:link:](wallpapers)           | [:inbox_tray:](https://www.opendesktop.org/p/) |                           |
+| Firefox Quantum Theme     | [:link:](extra/firefox)        | [:inbox_tray:](https://www.opendesktop.org/p/) | [Darkine at addons.mozilla.org](https://addons.mozilla.org/addon/darkine) |
+<br>
 
 ## Installation
 
-Use the script to install the latest version directly from this repo (independently on your distro):
-
 #### Install
-
 ```
 wget -qO- https://raw.githubusercontent.com/Rokin05/darkine-kde/master/install.sh | sh
 ```
 
-
 #### Uninstall
-
 ```
 wget -qO- https://raw.githubusercontent.com/Rokin05/darkine-kde/master/install.sh | uninstall=true sh
+
+```
+<br>
+
+#### Note about SDDM theme :
+_The SDDM Thème is build from scratch with [QtQuick 2](https://doc.qt.io/qt-5/qtquick-index.html) (Qt 5.7 >=)._<br>
+_This is compatible with and without [KDE Plasma](https://kde.org/plasma-desktop) and not depend of KDE Framework._<br>
+_You can learn more about it at : [SDDM-Themes (Git)](https://github.com/Rokin05/SDDM-Themes)._
+
+Dependencies (sddm only)
+> On KDE Plasma desktop, you normally have nothing more to install, but if one dependency is not present on other environments here are those used :
+
+##### ● Debian / Ubuntu :
+```shell
+# On Ubuntu, universe repo maybe necessary : 
+# add-apt-repository universe
+apt-get update 
+apt-get install qml-module-qtquick-layouts qml-module-qtquick-controls2 qml-module-qtquick-templates2 qml-module-qtgraphicaleffects
 ```
 
-
-### Third-party packages
-
-Packages in this section are not part of the official repositories. If you have a trouble or a question please contact with package maintainer.
-
-| **Distro** | **Maintainer** | **Package** |
-|:-----------|:---------------|:------------|
-| Arch Linux | Josip Ponjavic | [darkine-kde-git](https://aur.archlinux.org/packages/darkine-kde-git/) <sup>AUR</sup> |
-
-**NOTE:** If you maintainer and want be in the list please create an issue or send a pull request.
-
-
+##### ● Arch :
+```shell
+pacman -S qt5-quickcontrols2 qt5-graphicaleffects qt5-svg
+```
+<br>
 
 ## Recommendations
 
-- For better looking please use this pack with [Kvantum engine](https://github.com/tsujan/Kvantum/tree/master/Kvantum).
+- For better looking please use this pack with [Kvantum engine](https://github.com/tsujan/Kvantum/tree/master/Kvantum). <br>
+  Run `kvantummanager --set Darkine` to choose and apply theme.
+<br>
 
-  Run `kvantummanager` to choose and apply **Darkine** theme.
-
-- Install [Papirus-Adapta icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) for a more consistent and beautiful experience.
-
-- For better looking use toolbar icons without text with 22px size (for Papirus themes)
-
-
-
-## Configuration
-
-
-<p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.lockscreen.png" alt="Darkine-KDE lockscreen"/></p>
-
-#### Set the background lockscreen dark-grey :
-```
-kwriteconfig5 --file kscreenlockerrc --group Greeter --group Wallpaper --group org.kde.color --group General --key Color 29,29,29
-qdbus org.kde.KWin /KWin reconfigure
-```
-
-
-<a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/fonts-config.png"><p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.fonts.png" alt="Darkine-KDE fonts"/></p></a>
-
-#### Use the same <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/fonts-config.png">fonts</a> from the screenshot :
+#### Fonts :
 ```
 # Arch :
-sudo pacman -S cantarell-fonts
+sudo pacman -S adobe-source-code-pro-fonts ttf-roboto
 
-# Debian / Ubuntu :
-sudo apt-get install fonts-cantarell
+# dnf (Fedora)
+sudo dnf install adobe-source-code-pro-fonts google-roboto-fonts
 
-kwriteconfig5 --file kdeglobals --group General --key fixed "Monospace,9,-1,5,50,0,0,0,0,0"
-kwriteconfig5 --file kdeglobals --group General --key font "Cantarell,9,-1,5,50,0,0,0,0,0,Regular"
-kwriteconfig5 --file kdeglobals --group General --key menuFont "Cantarell,10,-1,5,25,0,0,0,0,0,Light"
-kwriteconfig5 --file kdeglobals --group General --key smallestReadableFont "Cantarell,8,-1,5,50,0,0,0,0,0,Regular"
-kwriteconfig5 --file kdeglobals --group General --key toolBarFont "Cantarell,9,-1,5,25,0,0,0,0,0,Light"
-kwriteconfig5 --file kdeglobals --group WM --key activeFont "Cantarell,9,-1,5,50,0,0,0,0,0,Regular"
+# pkg(8) (FreeBSD)
+pkg install sourcecodepro-ttf roboto-fonts-ttf
+
+kwriteconfig5 --file kdeglobals --group General --key fixed "Source Code Pro,9,-1,5,50,0,0,0,0,0,Regular"
+kwriteconfig5 --file kdeglobals --group General --key font "Roboto,10,-1,5,50,0,0,0,0,0,Regular"
+kwriteconfig5 --file kdeglobals --group General --key menuFont "Roboto,10,-1,5,50,0,0,0,0,0,Regular"
+kwriteconfig5 --file kdeglobals --group General --key smallestReadableFont "Roboto,8,-1,5,50,0,0,0,0,0,Regular"
+kwriteconfig5 --file kdeglobals --group General --key toolBarFont "Roboto,10,-1,5,50,0,0,0,0,0,Regular"
+kwriteconfig5 --file kdeglobals --group WM --key activeFont "Roboto,9,-1,5,50,0,0,0,0,0,Regular"
+
 qdbus org.kde.KWin /KWin reconfigure
 kquitapp5 plasmashell && kstart5 plasmashell
 ```
 
-
-<a href="https://github.com/tsujan/Kvantum/tree/master/Kvantum"><p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.kvantum.png" alt="Darkine-KDE kvantum"/></p></a>
-
-#### Arch : How install Kvantum engine :
-
-<a href="https://github.com/tsujan/Kvantum/blob/master/Kvantum/INSTALL">Official guide</a>
+#### Toolbar icon size :
 ```
-#Official Repo :
-sudo pacman -S kvantum-qt5
+kwriteconfig5 --file kdeglobals --group MainToolbarIcons --key Size "22"
+kwriteconfig5 --file kdeglobals --group ToolbarIcons --key Size "22"
+
+qdbus org.kde.KWin /KWin reconfigure
+kquitapp5 plasmashell && kstart5 plasmashell
 ```
 
-<a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme"><p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.papirus.png" alt="Darkine-KDE papirus"/></p></a>
+<br>
 
-#### How to change main colors of Papirus iconpack :
+## Licence
 
-After installation of Papirus :
+Source code of is licensed under GNU GPL version 3.<br>
+QML files are MIT licensed and images are CC BY 3.0.
 
-- If the icons are installed at ROOT directory* :
-```
-sudo find -L /usr/share/icons/Papirus-Adapta-Nokto -name "*.svg" -exec sed -i -e 's/#00bcd4/#5d3263/g' -e 's/#0096aa/#351c39/g' -e 's/#00424A/#1a1a1a/g' {} \;
-```
+<br>
 
-- If the icons are installed at HOME directory for KDE* :
-```
-find -L $HOME/.local/share/icons/Papirus-Adapta-Nokto -name "*.svg" -exec sed -i -e 's/#00bcd4/#5d3263/g' -e 's/#0096aa/#351c39/g' -e 's/#00424A/#1a1a1a/g' {} \;
-```
+## Credits
 
-<sup><sub>*Command execution take ~2 min with a Intel quad core</sub></sup>
+- KDE Plasma - [icons](https://github.com/KDE/breeze-icons) _(Breeze)_.
+- Papirus    - [icons](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) _(PapirusDevelopmentTeam)_.
 
-<p align="center"><img src="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/INFO/screenshots/thumbs/mini.changecolor.png" alt="Darkine-KDE changecolor"/></p>
-<p align="center"><sup><sub>1. The main color : #00bcd4 | 2. The backend color : #0096aa | 3. The logo color : #00424A</sub></sup></p>
+<br>
 
+## Donate
 
-## License
+The development, the publication and the different tests are done in my free time,<br>
+If you like my project, you can send a coffee at : 
 
-GNU GPL v3
- 
-
-
-
-
-
-
-
-
-
-
- 
+<span class="paypal"><a href="https://www.paypal.me/Rokin05" title="Donate to this project using Paypal"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal donate button" /></a></span>

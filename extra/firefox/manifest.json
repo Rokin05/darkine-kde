@@ -1,0 +1,57 @@
+{
+  "manifest_version": 2,
+  "version": "5.0",
+  "name": "Darkine",
+  "theme": {
+    "images": {
+      "additional_backgrounds": [
+        "bg.svg"
+      ]
+    },
+    "properties": {
+      "additional_backgrounds_alignment": [
+        "top"
+      ],
+      "additional_backgrounds_tiling": [
+        "repeat"
+      ]
+    },
+    "colors": {
+      "frame": "#161613",
+      "toolbar": "#1d1e17",
+
+      "tab_background_text": "#57584f",
+      "bookmark_text": "#6b6c61",
+      "toolbar_field_text": "#57584f",
+
+      "tab_line": "#ae81ffBF",
+      "tab_loading": "#ae81ff",
+
+      "tab_background_separator": "#ffffff1A",
+      "toolbar_top_separator": "#00000066",
+      "toolbar_bottom_separator": "#00000026",
+      "toolbar_vertical_separator": "#6e6e6e0D",
+
+      "button_background_active": "#ffffff0D",
+      "button_background_hover": "#ffffff0D",
+      
+      "icons": "#57584f80",
+      "icons_attention": "#ae81ff80",
+
+      "toolbar_field": "#0000001A",
+      "toolbar_field_focus": "#0000001A",
+
+      "toolbar_field_border": "#6e6e6e0D",
+      "toolbar_field_border_focus": "#6e6e6e0D",
+
+      "toolbar_field_separator": "#ffffff0D",
+
+      "ntp_background": "#1d1e17",
+      "ntp_text": "#57584f",
+
+
+      "popup_border": "#00000026"
+
+    }
+  }
+}

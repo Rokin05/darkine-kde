@@ -1,0 +1,13 @@
+<svg id="svg876" height="40.236217" style="" viewBox="0 0 10.645832 10.645833" width="40.236217" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="layer1" style="" transform="translate(-8 -275)">
+<path id="decoration-center" d="m11.90625 278.47916h2.645833v2.64583h-2.645833z" style="fill:#161613;stroke-width:.264583"/>
+<use id="decoration-right" height="100%" style="" transform="translate(4)" width="100%" xlink:href="#decoration-center"/>
+<use id="decoration-topright" height="100%" style="" transform="translate(4 -4)" width="100%" xlink:href="#decoration-center"/>
+<use id="decoration-bottomright" height="100%" style="" transform="translate(4 4)" width="100%" xlink:href="#decoration-center"/>
+<use id="decoration-left" height="100%" style="" transform="translate(-4)" width="100%" xlink:href="#decoration-center"/>
+<use id="decoration-topleft" height="100%" style="" transform="translate(-4 -4)" width="100%" xlink:href="#decoration-center"/>
+<use id="decoration-bottomleft" height="100%" style="" transform="translate(-4 4)" width="100%" xlink:href="#decoration-center"/>
+<use id="decoration-top" height="100%" style="" transform="translate(0 -4)" width="100%" xlink:href="#decoration-center"/>
+<use id="decoration-bottom" height="100%" style="" transform="translate(0 4)" width="100%" xlink:href="#decoration-center"/>
+</g>
+</svg>

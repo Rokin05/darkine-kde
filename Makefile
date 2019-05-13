@@ -3,7 +3,7 @@
 
 PREFIX ?= /usr
 IGNORE ?=
-THEMES ?= aurorae color-schemes Kvantum plasma wallpapers sddm
+THEMES ?= plasma color-schemes aurorae Kvantum icons sddm wallpapers konsole
 
 # excludes IGNORE from THEMES list
 THEMES := $(filter-out $(IGNORE), $(THEMES))
@@ -15,13 +15,16 @@ install:
 	cp -R $(THEMES) $(DESTDIR)$(PREFIX)/share
 
 uninstall:
-	-rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/Darkine
+	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/darkine
+	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/darkine
 	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Darkine.colors
+	-rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/Darkine-classic
+	-rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/Darkine-round
 	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Darkine
-	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Darkine
-	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/org.kde.darkine
+	-rm -rf $(DESTDIR)$(PREFIX)/share/icons/darkine
+	-rm -rf $(DESTDIR)$(PREFIX)/share/sddm/themes/darkine
 	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Darkine
-	-rm -rf $(DESTDIR)$(PREFIX)/share/sddm/themes/Darkine
+	-rm -r  $(DESTDIR)$(PREFIX)/share/konsole/Darkine.colorscheme
 
 _get_version:
 	$(eval VERSION := $(shell git show -s --format=%cd --date=format:%Y%m%d HEAD))
@@ -45,5 +48,4 @@ undo_release: _get_version
 # .BEGIN is ignored by GNU make so we can use it as a guard
 .BEGIN:
 	@head -3 Makefile
-	@false
- 
+@false
