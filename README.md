@@ -8,22 +8,23 @@
 
 ## Darkine KDE - Theme for KDE Plasma 5 desktop :
 
-The full theme pack is available on [OpenDesktop.org](https://www.opendesktop.org/p/) and on KDE Plasma Discover. <br>
+The full theme collection is available on [OpenDesktop.org](https://www.opendesktop.org/c/1304956/) and on KDE Plasma Discover. <br>
 You can also use the script below to install the latest version directly from this repo (independently on your distro).
 
 <br>
 
-| Name                      | Git (path)                     | OpenDesktop (tar.gz)                           | Misc                      |
-|:--------------------------|:------------------------------:|:----------------------------------------------:|:--------------------------|
-| Plasma Look-and-Feel Pack | [:link:](plasma/look-and-feel) | [:inbox_tray:](https://www.opendesktop.org/p/) |                           |
-| Plasma Desktop Theme      | [:link:](plasma/desktoptheme)  | [:inbox_tray:](https://www.opendesktop.org/p/) |                           |
-| Plasma Color Scheme       | [:link:](color-schemes)        | [:inbox_tray:](https://www.opendesktop.org/p/) |                           |
-| Aurorae Theme             | [:link:](aurorae)              | [:inbox_tray:](https://www.opendesktop.org/p/) |                           |
-| Kvantum Theme             | [:link:](Kvantum)              | [:inbox_tray:](https://www.opendesktop.org/p/) |                           |
-| Icon-pack                 | [:link:](icons)                | [:inbox_tray:](https://www.opendesktop.org/p/) |                           |
-| SDDM Theme                | [:link:](sddm)                 | [:inbox_tray:](https://www.opendesktop.org/p/) |                           |
-| Wallpapers                | [:link:](wallpapers)           | [:inbox_tray:](https://www.opendesktop.org/p/) |                           |
-| Firefox Quantum Theme     | [:link:](extra/firefox)        | [:inbox_tray:](https://www.opendesktop.org/p/) | [Darkine at addons.mozilla.org](https://addons.mozilla.org/addon/darkine) |
+| Name                      | Git (path)                     | OpenDesktop (tar.gz)                                  | Misc                      |
+|:--------------------------|:------------------------------:|:-----------------------------------------------------:|:--------------------------|
+| Plasma Look-and-Feel Pack | [:link:](plasma/look-and-feel) | [:inbox_tray:](https://www.opendesktop.org/p/1226052) |                           |
+| Plasma Desktop Theme      | [:link:](plasma/desktoptheme)  | [:inbox_tray:](https://www.opendesktop.org/p/1226050) |                           |
+| Plasma Color Scheme       | [:link:](color-schemes)        | [:inbox_tray:](https://www.opendesktop.org/p/1226045) |                           |
+| Aurorae Theme             | [:link:](aurorae)              | [:inbox_tray:](https://www.opendesktop.org/p/1226049) |                           |
+| Kvantum Theme             | [:link:](Kvantum)              | [:inbox_tray:](https://www.opendesktop.org/p/1226051) |                           |
+| Icon-pack                 | [:link:](icons)                | [:inbox_tray:](https://www.opendesktop.org/p/1304954) |                           |
+| SDDM Theme                | [:link:](sddm)                 | [:inbox_tray:](https://www.opendesktop.org/p/1226079) |                           |
+| Wallpapers                | [:link:](wallpapers)           | [:inbox_tray:](https://www.opendesktop.org/p/1305212) |                           |
+| Wallpapers (2018)         | [:link:](wallpapers)           | [:inbox_tray:](https://www.opendesktop.org/p/1226061) |                           |
+| Firefox Quantum Theme     | [:link:](extra/firefox)        | [:inbox_tray:](https://www.opendesktop.org/p/1304958) | [Darkine at addons.mozilla.org](https://addons.mozilla.org/addon/darkine) |
 <br>
 
 ## Installation
