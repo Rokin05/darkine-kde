@@ -1,13 +1,8 @@
 <p align="center">
-    <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/plasma/look-and-feel/darkine/contents/previews/preview.png">
-        <img src="plasma/look-and-feel/darkine/contents/previews/preview.png" alt="Darkine theme - KDE Plasma"/>
+    <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/plasma/look-and-feel/darkine/contents/previews/fullscreenpreview.jpg">
+        <img width="100%" src="plasma/look-and-feel/darkine/contents/previews/fullscreenpreview.jpg" alt="Darkine theme - KDE Plasma"/>
     </a>
-    <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/sddm/themes/darkine/preview.jpg">
-        <img width="400" src="sddm/themes/darkine/preview.jpg" alt="Darkine - SDDM theme"/>
-    </a>
-    <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/wallpapers/Darkine/contents/screenshot.png">
-        <img width="380" src="wallpapers/Darkine/contents/screenshot.png" alt="Darkine - SDDM theme"/>
-    </a>
+    <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/sddm/themes/darkine/preview.jpg"><img width="400" src="sddm/themes/darkine/preview.jpg" alt="Darkine - SDDM theme"/></a> <a href="https://raw.githubusercontent.com/Rokin05/darkine-kde/master/wallpapers/Darkine/contents/screenshot.png"> <img width="380" src="wallpapers/Darkine/contents/screenshot.png" alt="Darkine - SDDM theme"/></a>
 </p>
 
 
