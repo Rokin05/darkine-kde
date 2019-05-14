@@ -89,3 +89,6 @@ o Extra :
 - New! : Firefox Quantum theme available at : https://addons.mozilla.org/addon/darkine
 
 
+#### Version 2.1 - 14 May 2019
+- Add Konsole color-scheme.
+- Desktop-theme : Add notes.svg (widget).
