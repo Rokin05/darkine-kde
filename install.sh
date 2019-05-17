@@ -60,6 +60,7 @@ _uninstall() {
     _rm "${PREFIX}/share/sddm/themes/${name,,}"
     _rm "${PREFIX}/share/wallpapers/${name^}"
     _rm "${PREFIX}/share/konsole/Darkine.colorscheme"
+    _rm "${PREFIX}/share/themes/${name^}"
 }
 
 _install() {
@@ -73,6 +74,7 @@ _install() {
         "${temp_dir}/${gh_repo}-master/sddm" \
         "${temp_dir}/${gh_repo}-master/wallpapers" \
         "${temp_dir}/${gh_repo}-master/konsole" \
+        "${temp_dir}/${gh_repo}-master/themes" \
         "${PREFIX}/share"
 }
 

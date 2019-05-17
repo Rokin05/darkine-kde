@@ -3,7 +3,7 @@
 
 PREFIX ?= /usr
 IGNORE ?=
-THEMES ?= plasma color-schemes aurorae Kvantum icons sddm wallpapers konsole
+THEMES ?= plasma color-schemes aurorae Kvantum icons sddm wallpapers konsole themes
 
 # excludes IGNORE from THEMES list
 THEMES := $(filter-out $(IGNORE), $(THEMES))
@@ -25,6 +25,7 @@ uninstall:
 	-rm -rf $(DESTDIR)$(PREFIX)/share/sddm/themes/darkine
 	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Darkine
 	-rm -r  $(DESTDIR)$(PREFIX)/share/konsole/Darkine.colorscheme
+	-rm -rf $(DESTDIR)$(PREFIX)/share/themes/Darkine
 
 _get_version:
 	$(eval VERSION := $(shell git show -s --format=%cd --date=format:%Y%m%d HEAD))

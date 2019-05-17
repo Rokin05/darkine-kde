@@ -52,4 +52,4 @@ X-KDE-PluginInfo-Name=darkine
 X-KDE-PluginInfo-Version=2.0
 X-KDE-PluginInfo-Website=https://github.com/Rokin05
 X-Plasma-MainScript=defaults
-X-KPackage-Dependencies=kns://lookandfeel.knsrc/api.kde-look.org/1226052,kns://plasma-themes.knsrc/api.kde-look.org/1226050,kns://aurorae.knsrc/api.kde-look.org/1226049,kns://colorschemes.knsrc/api.kde-look.org/1226045,kns://icons.knsrc/api.kde-look.org/1304954,kns://sddmtheme.knsrc/api.kde-look.org/1226079,kns://wallpaper.knsrc/api.kde-look.org/1305212
+X-KPackage-Dependencies=kns://lookandfeel.knsrc/api.kde-look.org/1226052,kns://plasma-themes.knsrc/api.kde-look.org/1226050,kns://aurorae.knsrc/api.kde-look.org/1226049,kns://colorschemes.knsrc/api.kde-look.org/1226045,kns://icons.knsrc/api.kde-look.org/1304954,kns://sddmtheme.knsrc/api.kde-look.org/1226079,kns://wallpaper.knsrc/api.kde-look.org/1305212,kns://cgcgtk3.knsrc/api.kde-look.org/1305725

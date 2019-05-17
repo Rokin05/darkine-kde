@@ -1,13 +1,13 @@
-#### Version 1.0 - 30 March 2018
+#### Version 1.0
 - First commit
 
-#### Version 1.1 - 31 March 2018
-- Fixs for opendesktop.org packages
+#### Version 1.1
+- Fix for opendesktop.org packages
 
-#### Version 1.2 - 31 March 2018
-- Fixs for opendesktop.org packages
+#### Version 1.2
+- Fix for opendesktop.org packages
 
-#### Version 1.3 - 1 April 2018
+#### Version 1.3
 - Fix install
 - Fix some filenames
 - Update authors files
@@ -15,7 +15,7 @@
 - Fix look-and-feel (Window theme apply now automatically)
 - Update readme
 
-#### Version 1.4 - 5 April 2018
+#### Version 1.4
 - Update readme (new one-line sed command for Papirus iconpack colors change)
 - Kvantum : Update slidercursor-disabled control svg
 - Kvantum : Update dial control svg
@@ -30,7 +30,7 @@
 - Plasma theme : Change default icons Papirus-Adapta to Papirus-Adapta-Nokto (better render on dark theme)
 - Kvantum : Update scrollbar (flat design).
 
-#### Version 2.0 - 13 May 2019
+#### Version 2.0
 
 Full 2019 rework !
 New theme elements, most items, colors and fonts have been reworked in all parts of the themes.
@@ -89,6 +89,13 @@ o Extra :
 - New! : Firefox Quantum theme available at : https://addons.mozilla.org/addon/darkine
 
 
-#### Version 2.1 - 14 May 2019
+#### Version 2.1
 - Add Konsole color-scheme.
 - Desktop-theme : Add notes.svg (widget).
+- Kvantum : Fix toolbar (frame.top) spacing issue.
+
+- New! : Add Darkine-GTK theme.
+- Icons : update gtk "stop" and derivates
+- icons : Add index.theme [emblems/symbolic].
+- icons : Fix "Gtk-WARNING : Theme directory 22 has no size field".
+- L&F : Add Darkine-GTK to the look-and-feel package
