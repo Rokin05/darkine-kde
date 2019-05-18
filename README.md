@@ -20,6 +20,7 @@ You can also use the script below to install the latest version directly from th
 | Plasma Color Scheme       | [:link:](color-schemes)           | [:inbox_tray:](https://www.opendesktop.org/p/1226045) |                           |
 | Aurorae Theme             | [:link:](aurorae)                 | [:inbox_tray:](https://www.opendesktop.org/p/1226049) |                           |
 | Kvantum Theme             | [:link:](Kvantum)                 | [:inbox_tray:](https://www.opendesktop.org/p/1226051) |                           |
+| GTK Theme                 | [:link:](theme/Darkine)           | [:inbox_tray:](https://www.opendesktop.org/p/1305725) | [Known bug (Firefox)](#-Known-bug)) |
 | Icon-pack                 | [:link:](icons)                   | [:inbox_tray:](https://www.opendesktop.org/p/1304954) |                           |
 | SDDM Theme                | [:link:](sddm)                    | [:inbox_tray:](https://www.opendesktop.org/p/1226079) |                           |
 | Konsole color-scheme      | [:link:](konsole)                 | [:inbox_tray:](https://www.opendesktop.org/p/1305370) |                           |
@@ -101,6 +102,54 @@ qdbus org.kde.KWin /KWin reconfigure
 kquitapp5 plasmashell && kstart5 plasmashell
 ```
 
+
+<br>
+
+## Known bug
+
+##### ● Firefox / Thunderbird + GTK3 theme :
+
+The rendering is not perfect with dark theme, The main background of the selected tab and the highlighted text in the main menu follow bad or does not follow the colors of the GTK theme so I have tried to deal with that how i can.
+
+To improve that, if you want keep the dark theme you can use the Firefox (WebExtension) theme specially made for it and available on [addons.mozilla.org](https://addons.mozilla.org/addon/darkine).
+
+###### Alternative 1 : you can make Firefox (46+) ignore the GTK theme with the following commands examples :
+```
+# For KDE Desktop
+env GTK_THEME=Breeze:light firefox
+env GTK_THEME=Breeze:light thunderbird
+# For Gnome Desktop
+env GTK_THEME=Adwaita:light firefox
+env GTK_THEME=Adwaita:light thunderbird
+```
+_* Note : The current Firefox (WebExtension) theme style only the main window/tab and keep the menu white. It can be used in addition or without the GTK theme._
+
+###### Alternative 2 : Change the GTK theme for content process only :
+To force Firefox to use a light theme (e.g. Adwaita) for web content only :
+
+    1) Open about:config in the address bar.
+    2) Create a new widget.content.gtk-theme-override string type entry (right mouse button > New > String).
+    3) Set the value to the light theme to use for rendering purposes (e.g. Adwaita:light).
+    4) Restart Firefox.
+
+
+######  HTML Textarea and checkbox :
+This is another Firefox bug with GTK Theme, it's possible to fix that with a custom userContent.css file :
+```
+1) Create userContent.css file in your Firefox profil folder : ~/.mozilla/firefox/<your-profil>/chrome/userContent.css
+2) Past the css code :
+
+/* FIX GTK THEME */
+textarea, input, select {
+    -moz-appearance: none !important;
+    background-color: #eee;
+    color: #111;
+}
+
+3) Restart Firefox.
+```
+_Ref : [Arch Wiki](https://wiki.archlinux.org/index.php/Firefox/Tweaks)._
+
 <br>
 
 ## Licence
@@ -112,8 +161,9 @@ QML files are MIT licensed and images are CC BY 3.0.
 
 ## Credits
 
-- KDE Plasma - [icons](https://github.com/KDE/breeze-icons) _(Breeze)_.
-- Papirus    - [icons](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) _(PapirusDevelopmentTeam)_.
+- [Git](https://github.com/KDE/breeze-icons) - KDE Plasma -  _(Breeze)_.
+- [Git](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) - Papirus -  _(PapirusDevelopmentTeam)_.
+- [Git](https://github.com/EliverLara/Sweet) - Sweet - _(For the GTK WM icons)_.
 
 <br>
 
