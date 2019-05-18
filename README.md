@@ -20,7 +20,7 @@ You can also use the script below to install the latest version directly from th
 | Plasma Color Scheme       | [:link:](color-schemes)           | [:inbox_tray:](https://www.opendesktop.org/p/1226045) |                           |
 | Aurorae Theme             | [:link:](aurorae)                 | [:inbox_tray:](https://www.opendesktop.org/p/1226049) |                           |
 | Kvantum Theme             | [:link:](Kvantum)                 | [:inbox_tray:](https://www.opendesktop.org/p/1226051) |                           |
-| GTK Theme                 | [:link:](theme/Darkine)           | [:inbox_tray:](https://www.opendesktop.org/p/1305725) | [Known bug (Firefox)](#-Known-bug) |
+| GTK Theme                 | [:link:](themes/Darkine)          | [:inbox_tray:](https://www.opendesktop.org/p/1305725) | [Known bug (Firefox)](#-known-bug) |
 | Icon-pack                 | [:link:](icons)                   | [:inbox_tray:](https://www.opendesktop.org/p/1304954) |                           |
 | SDDM Theme                | [:link:](sddm)                    | [:inbox_tray:](https://www.opendesktop.org/p/1226079) |                           |
 | Konsole color-scheme      | [:link:](konsole)                 | [:inbox_tray:](https://www.opendesktop.org/p/1305370) |                           |
