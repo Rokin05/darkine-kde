@@ -74,7 +74,7 @@ o Look-and-feel :
 - Update (qml) code to the last plasma version (5.15).
 - Update previews pictures.
 
-o Icons-Pack (new!) :
+ Icons-Pack (new!) :
  - The theme now has its own icon theme pack : This one was not created from scratch but this base mainly on the official Breeze theme as well as on the Papyrus theme for the action bar. 
 
 o SDDM :
@@ -101,11 +101,11 @@ o Extra :
 - L&F : Add Darkine-GTK to the look-and-feel package
 
 - Color-Scheme : I reworked on a little bit of everything because I was not satisfied with the previous result but it is quite difficult to work finely, since properties are shared between several different elements
-- The colors of the theme remain unchanged but the design is a little more flat now.
-- Checkboxes are now purple.
-- The Highligth of the menu and dropdown menu is now purple like the Kvantum theme.
-- Button text color little more lighter.
-- add few "Colors:Complementary" who were not present
-- Update link colors.
+- Color-Scheme : The colors of the theme remain unchanged but the design is a little more flat now.
+- Color-Scheme : Checkboxes are now purple.
+- Color-Scheme : The Highligth of the menu and dropdown menu is now purple like the Kvantum theme.
+- Color-Scheme : Button text color little more lighter.
+- Color-Scheme : add few "Colors:Complementary" who were not present
+- Color-Scheme : Update link colors.
 
 - Look-and-feel : update X-KPackage-Dependencies.
