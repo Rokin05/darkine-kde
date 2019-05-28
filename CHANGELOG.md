@@ -99,3 +99,13 @@ o Extra :
 - icons : Add index.theme [emblems/symbolic].
 - icons : Fix "Gtk-WARNING : Theme directory 22 has no size field".
 - L&F : Add Darkine-GTK to the look-and-feel package
+
+- Color-Scheme : I reworked on a little bit of everything because I was not satisfied with the previous result but it is quite difficult to work finely, since properties are shared between several different elements
+- The colors of the theme remain unchanged but the design is a little more flat now.
+- Checkboxes are now purple.
+- The Highligth of the menu and dropdown menu is now purple like the Kvantum theme.
+- Button text color little more lighter.
+- add few "Colors:Complementary" who were not present
+- Update link colors.
+
+- Look-and-feel : update X-KPackage-Dependencies.
