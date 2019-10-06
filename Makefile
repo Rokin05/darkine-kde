@@ -49,4 +49,4 @@ undo_release: _get_version
 # .BEGIN is ignored by GNU make so we can use it as a guard
 .BEGIN:
 	@head -3 Makefile
-@false
+	@false
